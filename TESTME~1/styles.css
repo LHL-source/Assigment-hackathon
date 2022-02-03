@@ -1,0 +1,35 @@
+/*media queries plaatsen boven body
+@media screen and (min-width: 400x)
+{
+    body{
+    background-color: blue;
+    color: yellow;
+        }
+}*/
+
+    .katinzak{ 
+                background-color: lightgrey;
+                width: 30px;
+                border: 10px solid green;
+                padding: 50px;
+                margin: 5px;
+
+                }
+    
+
+    body {
+        background-color:salmon
+         }
+    
+    /*media queries plaats onder body*/
+    @media screen and (min-width: 600px) {
+            body{
+            background-color: blue;
+                }
+        }
+
+       /* @media screen and (min-width: 1024px) {
+            body {
+              background-color: blue;
+                }
+            }*/
