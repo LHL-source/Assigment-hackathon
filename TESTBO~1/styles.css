@@ -1,0 +1,27 @@
+
+.cat{
+    color: red;
+    background-color: lightgrey;
+    width: 30px;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 5px;
+    }
+
+    
+    .dog {
+        color: black;
+        background-color: lightgrey;
+        width: 30px;
+        border: 10px solid green;
+        padding: 50px;
+        margin: 5px;
+    }
+
+    .house {color: purple;
+        background-color: lightgrey;
+        width: 30px;
+        border: 10px solid green;
+        padding: 50px;
+        margin: 5px;
+    }
