@@ -1,0 +1,46 @@
+.container {
+    height:100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+   /* grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 60px auto 10px;*/
+   
+
+    grid-template-areas: 
+        
+        "h"
+        "m"
+        "w"
+        "f";
+
+
+       /* "h h h h m m m m m m m m"
+        "h h h h w w w w w w w w"
+        "h h h h f f f f f f f f";*/
+    
+            }
+ 
+    .1site-header {
+        grid-area : h;
+        }
+
+    .2site-main {
+
+    grid-area : m;
+
+    }
+
+    .3widget-area {
+        grid-area : w;
+
+        }
+
+    .4site-footer {
+        grid-area : f;
+        }
+
+.index.css_testcase {
+    color = red;
+}
