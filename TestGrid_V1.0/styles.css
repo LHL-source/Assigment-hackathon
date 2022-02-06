@@ -1,0 +1,39 @@
+.grid-container {background-color: black;
+    display: grid;
+    grid-gap:2px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "section-header"
+        "section-nav"
+        "section-main"
+        "section-reserve"
+        "section-footer";
+}
+
+.body_backgroundColor{
+    background-color: yellow;
+}
+
+.section-header {
+    background-color: #b3995d;
+}
+
+.section-nav {
+    background-color: rgb(136, 40, 40);
+}
+
+.section-main {
+    background-color:aqua;
+}
+
+.section-reserve {
+    background-color:grey;
+}
+
+.section-footer {
+    background-color:pink
+    ;
+}
+
+
